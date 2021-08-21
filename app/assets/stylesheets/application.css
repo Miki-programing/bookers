@@ -13,3 +13,60 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   position: relative;
+ }
+
+ body {
+    margin: 30px;
+    font-size: 13px;
+ }
+
+/* home */
+ .paragraph {
+    margin: 30px;
+ }
+
+ .bookers{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+ }
+
+ /* index */
+.books-table {
+   border-collapse: separate;
+   border-spacing: 8px;
+}
+
+ .operation {
+   display: flex;
+ }
+
+ .each-op {
+   margin: 7px 5px 0 0;
+ }
+
+ .field {
+    margin: 10px 0;
+ }
+
+ p {
+    margin: 7px 0 0 0;
+ }
+
+ /* error message */
+ .error-box {
+     width: 450px;
+     border: 2px solid #c00;
+     background-color: #f0f0f0;
+ }
+
+ .error-num {
+     background-color: #c00;
+     color: white;
+     font-size: 12px;
+     padding: 7px;
+ }

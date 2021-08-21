@@ -1,0 +1,19 @@
+<p class="paragraph">
+  <strong>Title: </strong>
+  <%= @book.title %>
+</p>
+
+<p class="paragraph">
+  <strong>Body: </strong>
+  <%= @book.body %>
+</p>
+
+<div class="operation">
+  <span class="each-op">
+    <%= link_to "Edit", edit_book_path(@book.id) %>
+  </span>
+  <span class="each-op">|</span>
+  <span class="each-op">
+    <%= link_to "Back", books_path %>
+  </span>
+</div>
