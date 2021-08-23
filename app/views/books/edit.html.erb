@@ -14,10 +14,10 @@
 
 <%= form_with model:@book, local:true do |f| %>
   <p>Title</p>
-  <%= f.text_field :title %>
+  <span class="input"><%= f.text_field :title %></span>
 
   <p>Body</p>
-  <%= f.text_area :body %>
+  <span class="input"><%= f.text_area :body %></span>
   <p>
   <%= f.submit "Update Book" %>
   </p>

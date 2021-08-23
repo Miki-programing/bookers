@@ -70,3 +70,12 @@
      font-size: 12px;
      padding: 7px;
  }
+
+ .input {
+   width: 250px;
+ }
+
+ /* メッセージ */
+ .notice {
+     color: green
+ }
